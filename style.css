@@ -31,9 +31,12 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
+img {
+  width: 100%;
+}
 /* ---  Groups & Items --- */
 
 .group {
@@ -66,8 +69,13 @@ header {
 
 header nav ul li {
   list-style-type: none;
+}
+
+header nav ul {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  padding-bottom: 20px;
 }
 
 header nav ul li a {
